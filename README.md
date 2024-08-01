@@ -1,4 +1,4 @@
-# roim-picx
+# roim-picx 
 
 ### 一款基于Cloudflare的Worker、R2、Pages实现的图床应用，具有以下特点：
 
@@ -18,25 +18,24 @@
 * 链接地址点击复制
 * 简单的身份认证功能，进入管理页面需要授权
 
-### 使用教程
+### 使用教程-修改了readme
 
 1. fork项目到自己的github
 2. 创建Page项目
 3. 输入编译参数
-
-    1. 框架预设：无
-    2. 构建命令：`npm run build`
-    3. 输出目录：`dist`
+ 3.1 框架预设：无
+ 3.2 构建命令：`npm run build`
+ 3.3 输出目录：`dist` 
 4. 完成创建
-5. 设置环境变量
-
-    1. `AUTH_TOKEN`：授权码
-    2. `COPY_URL`：复制的路径，如无，则输入`page域名/rest`
-6. 绑定R2
-
-    1. 变量名为：`R2`
+5. 设置环境变量 {Workers和Pages} —— {设置} —— {环境变量}
+ 5.1 `AUTH_TOKEN`：授权码(管理密码 —— 可自定义)
+ 5.2 `COPY_URL`：建议输入自定义R2域名 —— https://********.r2.dev(末尾不加/)
+6. 绑定R2 {Workers和Pages} —— {设置} —— {函数} —— {R2 存储桶绑定}
+ 6.1 `R2`：选择创建的R2存储桶
 7. 重新部署
 
 ---
 
 项目fork自[roimdev/roim-picx](https://github.com/roimdev/roim-picx)
+项目导入自[roimdev/roim-picx](https://github.com/liangliangle/roim-picx)
+原文链接[roimdev/roim-picx](https://blog.lianglianglee.com/posts/22b7ecba)

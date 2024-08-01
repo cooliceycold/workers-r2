@@ -37,5 +37,5 @@
 ---
 
 项目fork自[roimdev/roim-picx](https://github.com/roimdev/roim-picx)  
-项目导入自[roimdev/roim-picx](https://github.com/liangliangle/roim-picx)  
-原文链接[roimdev/roim-picx](https://blog.lianglianglee.com/posts/22b7ecba)  
+项目导入自[liangliangle/roim-picx](https://github.com/liangliangle/roim-picx)  
+原文链接[使用R2+Page部署免费的图床](https://blog.lianglianglee.com/posts/22b7ecba)  

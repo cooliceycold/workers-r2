@@ -29,7 +29,7 @@
 4. 完成创建  
 5. 设置环境变量 {Workers和Pages} —— {设置} —— {环境变量}  
   5.1 `AUTH_TOKEN`：授权码(管理密码 —— 可自定义)  
-  5.2 `COPY_URL`：" page域名/rest " 或 R2域名 " https://********.r2.dev " (末尾不加/)  
+  5.2 `COPY_URL`：`page域名/rest` 或 R2域名 `https://********.r2.dev` (末尾不加/)  
 6. 绑定R2 {Workers和Pages} —— {设置} —— {函数} —— {R2 存储桶绑定}  
   6.1 `R2`：选择创建的R2存储桶  
 7. 重新部署  

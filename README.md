@@ -34,6 +34,27 @@
   6.1 `R2`：选择创建的R2存储桶  
 7. 重新部署  
 
+### 可选 修改R2 CORS 策略 允许所有
+```
+[
+  {
+    "AllowedOrigins": [
+      "*"
+    ],
+    "AllowedMethods": [
+      "GET",
+      "POST",
+      "PUT",
+      "DELETE",
+      "HEAD"
+    ],
+    "AllowedHeaders": [
+      "*"
+    ]
+  }
+]
+
+```
 ---
 
 项目fork自[roimdev/roim-picx](https://github.com/roimdev/roim-picx)  
